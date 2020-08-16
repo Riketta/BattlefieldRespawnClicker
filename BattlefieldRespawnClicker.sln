@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattlefieldRespawnClicker", "BattlefieldRespawnClicker\BattlefieldRespawnClicker.csproj", "{6F724E45-DC1A-4B62-ACDD-AB67AEE6E8AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F724E45-DC1A-4B62-ACDD-AB67AEE6E8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F724E45-DC1A-4B62-ACDD-AB67AEE6E8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F724E45-DC1A-4B62-ACDD-AB67AEE6E8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F724E45-DC1A-4B62-ACDD-AB67AEE6E8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62F1B4BB-8197-40DB-A909-9A28B5793805}
+	EndGlobalSection
+EndGlobal

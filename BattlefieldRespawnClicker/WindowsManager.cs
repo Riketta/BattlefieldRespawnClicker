@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -34,7 +35,13 @@ namespace BattlefieldRespawnClicker
 
         public static void MouseClick(IntPtr handle, bool invert = false)
         {
+            MouseClick(handle, 0, invert);
+        }
+
+        public static void MouseClick(IntPtr handle, int holdTime, bool invert = false)
+        {
             Win32.mouse_event(invert ? Win32.MOUSEEVENTF_RIGHTDOWN : Win32.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, UIntPtr.Zero);
+            Thread.Sleep(holdTime);
             Win32.mouse_event(invert ? Win32.MOUSEEVENTF_RIGHTUP : Win32.MOUSEEVENTF_LEFTUP, 0, 0, 0, UIntPtr.Zero);
         }
 
